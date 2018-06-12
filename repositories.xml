@@ -1,0 +1,14 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>cura</name>
+    <description lang="en">Overlay for Ultimaker Cura</description>
+    <homepage>https://github.com/Perlovka/cura-overlay</homepage>
+    <owner type="person">
+      <email>perlovka@gmail.com</email>
+      <name>Michael Perlov</name>
+    </owner>
+    <source type="git">https://github.com/Perlovka/cura-overlay.git</source>
+    <source type="git">git+ssh://git@github.com/Perlovka/clickhouse-overlay.git</source>
+    <feed>https://github.com/Perlovka/cura-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
