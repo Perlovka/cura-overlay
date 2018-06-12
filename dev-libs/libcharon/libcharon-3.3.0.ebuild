@@ -17,12 +17,3 @@ SLOT="0/3"
 KEYWORDS="~amd64 ~x86"
 
 S="${WORKDIR}/${MY_PN}-${PV}"
-
-#src_configure() {
-#	local mycmakeargs=(
-#		-DINSTALL_CLIENT=$(usex client ON OFF)
-#		-DINSTALL_SERVER=$(usex server ON OFF)
-#		-DPYTHON_SITE_PACKAGES_DIR="$(python_get_sitedir)"
-#	)
-#	cmake-utils_src_configure
-#}
