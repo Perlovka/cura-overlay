@@ -1,8 +1,7 @@
-# cura-overlay
 Ultimaker Cura v3.x
 =========================
 
-Setup:
+Install:
 ```bash
 emerge app-eselect/eselect-repository
 eselect repository add cura git https://github.com/Perlovka/cura-overlay.git
