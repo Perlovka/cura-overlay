@@ -22,7 +22,7 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/uranium[${PYTHON_USEDEP}]
 	media-gfx/curaengine
 	media-gfx/fdm-materials
-	dev-libs/libsavitar[${PYTHON_USEDEP}]
+	dev-libs/libsavitar:=[python,${PYTHON_USEDEP}]
 	dev-libs/libcharon[${PYTHON_USEDEP}]
 	usb? ( dev-python/pyserial[${PYTHON_USEDEP}] )
 	zeroconf? ( dev-python/zeroconf[${PYTHON_USEDEP}] )"
